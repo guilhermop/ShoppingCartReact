@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Share+Tech+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-primary: #0a0a0f;
+  --bg-secondary: #0f0f1a;
+  --bg-card: #12121f;
+  --accent-cyan: #00f5ff;
+  --accent-pink: #ff006e;
+  --accent-purple: #7b2fff;
+  --text-primary: #e0e0ff;
+  --text-secondary: #8888aa;
+  --border: #1e1e3a;
+  --glow-cyan: 0 0 8px #00f5ff88;
+  --glow-pink: 0 0 8px #ff006e88;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Share Tech Mono', monospace;
+  min-height: 100vh;
+}
+
+h1, h2, h3, nav a {
+  font-family: 'Orbitron', sans-serif;
+}
+
+a {
+  color: var(--accent-cyan);
+  text-decoration: none;
+}
+
+a:hover {
+  text-shadow: var(--glow-cyan);
+}
+
+button {
+  cursor: pointer;
+  font-family: 'Share Tech Mono', monospace;
+}
