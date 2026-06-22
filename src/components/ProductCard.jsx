@@ -18,16 +18,19 @@ function ProductCard({ product }) {
       onMouseLeave={e => e.currentTarget.style.borderColor = "var(--border)"}
     >
       <div style={{
-        backgroundColor: "#fff",
-        borderRadius: "4px",
-        padding: "1rem",
         display: "flex",
         justifyContent: "center",
+        alignItems: "center",
+        height: "200px",
       }}>
         <img
           src={product.image}
           alt={product.title}
-          style={{ height: "160px", objectFit: "contain" }}
+          style={{
+            maxHeight: "100%",
+            maxWidth: "100%",
+            objectFit: "contain",
+          }}
         />
       </div>
 
